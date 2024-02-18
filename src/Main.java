@@ -3,6 +3,7 @@ import my_exceptions.AgeException;
 public class Main {
     static void checkAge(int age) {
         if (age < 18) {
+            System.out.println("new change");
             throw new AgeException();
         }
         else {
